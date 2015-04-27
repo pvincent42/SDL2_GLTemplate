@@ -114,7 +114,7 @@ Camera::look()
 	gluLookAt(
 		_position.x,	_position.y,	_position.z,	// eye point, camera position
 		_target.x,		_target.y,		_target.z,		// reference point, camera target point
-		0,				0,				1			);	// up vector constant
+		0,				1,				0			);	// up vector constant
 }
 
 Vec3<float> const &
